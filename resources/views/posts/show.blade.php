@@ -10,18 +10,13 @@
     
     <body>
         <h1>Blog Name</h1>
-        <p class='create'>[<a href='posts/create'>create</a>]</p>
         <div class='posts'>
-            @foreach ($posts as $post)
-            <div class='post'>
-                <a href='/posts/{{ $post->id }}'><h2 class='title'>{{ $post->title }}</h2></a>
+          
+                <h2 class='title'>{{ $post->title }}</h2>
                 <p class='body'>{{ $post->body }}</p>
-            </div>
-            @endforeach
+                <p class='updated_at'>{{ $post->updated_at }}</p>
+            
         </div>
-        <div class='paginate'>
-            {{ $posts->links() }}
-        </div>
-        
+        <div class='back'>[<a href='/'>back</a>]</div>
     </body>
 </html>
