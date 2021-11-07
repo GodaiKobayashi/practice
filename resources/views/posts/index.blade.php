@@ -10,7 +10,7 @@
     
     <body>
         <h1>Blog Name</h1>
-        <p class='create'>[<a href='posts/create'>create</a>]</p>
+        <p class='create'>[<a href='posts/create'>新規作成</a>]</p>
         <div class='posts'>
             @foreach ($posts as $post)
             <div class='post'>
