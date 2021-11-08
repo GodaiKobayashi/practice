@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
+        <link rel="stylesheet" href="../../Css/02.css">
     </head>
 <body>
     <h1 class="title">更新画面</h1>
@@ -20,6 +21,6 @@
             </div>
             <input type="submit" value="更新">
         </form>
-        <div class="back">[<a href="/">back</a>]</div>
+        <div class="back">[<a href="/">戻る</a>]</div>
     </div>
 </body>

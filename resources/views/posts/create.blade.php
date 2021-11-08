@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
+          <link rel="stylesheet" href="../../Css/02.css">
+          
     </head>
     <body>
         <h1>Blog Name</h1>
@@ -18,7 +20,9 @@
                 <textarea name="post[body]" placeholder="今日も1日お疲れさまでした。">{{ old('post.body') }}</textarea>
                 <p class="body__error" style="color:red">{{ $errors->first('post.body') }}</p>
             </div>
-            <input type="submit" value="保存"/>
+            <div class="hozo">
+                <input type="submit" value="保存"/>
+            </div>
         </form>
         <div class="back">[<a href="/">戻る</a>]</div>
     </body>
