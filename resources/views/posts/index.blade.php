@@ -5,11 +5,14 @@
         <title>Blog</title>
 
         <!-- Fonts -->
-        <!--<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">-->
-        <link rel="stylesheet" href="../../Css/02.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <!--<link rel="stylesheet" href="../../Css/02.css">-->
     </head>
+    @extends('layouts.app')
     
+    @section('content')
     <body>
+        {{Auth::user()->name}}
         <h1>Blog Name</h1>
         <p class='create'>[<a href='posts/create'>新規作成</a>]</p>
         <div class='posts'>
@@ -25,4 +28,5 @@
         </div>
         
     </body>
+    @endsection
 </html>

@@ -5,6 +5,9 @@
         <title>Blog</title>
         <link rel="stylesheet" href="../../Css/02.css">
     </head>
+    @extends('layouts.app')　　　　　　　　　　　　　　　　　　
+@section('content')
+
 <body>
     <h1 class="title">更新画面</h1>
     <div class="content">
@@ -24,3 +27,4 @@
         <div class="back">[<a href="/">戻る</a>]</div>
     </div>
 </body>
+@endsection

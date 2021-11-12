@@ -3,9 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
-          <link rel="stylesheet" href="../../Css/02.css">
+             <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+
+        
+          <!--<link rel="stylesheet" href="../../Css/02.css">-->
           
     </head>
+    @extends('layouts.app')　
+
+@section('content')
     <body>
         <h1>Blog Name</h1>
         <form action="/posts" method="POST">
@@ -28,3 +34,4 @@
     </body>
 </html>
 
+@endsection
