@@ -15,6 +15,10 @@ class PostRequest extends FormRequest
     }
 }
 
+
+
+
+
 // <?php
 
 // namespace App\Http\Requests;
